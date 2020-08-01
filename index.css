@@ -1,0 +1,110 @@
+/*Lily - first part*/
+
+.first_part {
+  height: 800px;
+  width: 100%;
+  background: url("https://s3-alpha-sig.figma.com/img/53fb/51b8/e1e3b841982ecb3c5cb382f79b81ca00?Expires=1597017600&Signature=FdgiKuFOHCShqrfe7b500g0NFZxgQMnPpGr71fxQnXVDNk6j5vvsTFhOIzfOaY7Zio-p5wffMqFJAeiH8YefS3bujV1ALXX~yWv6PcAsS2la-w5b1ejI5AEgHq9j8dIbI6fPKcxhqrHYJbLcU1FGfsRRfNLzm3hBobp0i4iHQZEGPwnfHdZGfcJy22kzjve0gEb4XlhtT0mLOWX~nSqW5uUNmyf3kFpJVgxkX16O76tn6n31SEeGVsb6yxpfrVeQ-DlWoFZLf2~ZHY7dFhBPPosQlKs78o88FxwY057vza6PfclpnWwlGTuvJjGiHLVU~Yi3tAA3sRw7xNnSQSNT2g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background-size: cover;
+  margin-top: -10px;
+  position: relative;
+  font-family: "Quicksand", sans-serif;
+  color: white;
+}
+
+#overlay {
+  width: 100%;
+  height: 800px;
+  background: linear-gradient(
+    180deg,
+    rgba(53, 66, 103, 0.0001) 0%,
+    #151824 99.5%
+  );
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#navbar {
+  padding-right: 30px;
+  padding-top: 30px;
+}
+
+#top_logo {
+  padding-left: 80px;
+  font-size: 20px;
+}
+
+#navbar li {
+  display: inline;
+  text-decoration: none;
+  padding: 25px;
+  font-size: 18px;
+  font-weight: bolder;
+  color: white;
+}
+
+#navbar a {
+  text-decoration: none;
+}
+
+#top_content {
+  position: absolute;
+  top: 200px;
+  left: 110px;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  position: relative;
+  left: 6px;
+  top: 3px;
+  background-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid white;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+  width: 260px;
+  height: 40px;
+  margin: 2px;
+  margin-left: 0;
+}
+
+input:focus {
+  outline: none;
+  color: white;
+  font-size: 16px;
+}
+::placeholder {
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+#top_content button {
+  height: 40px;
+  width: 130px;
+  background-color: #1b7dff;
+  color: white;
+  border: none;
+  margin-left: 30px;
+  font-size: 17px;
+}
+
+#top_content button:hover {
+  cursor: pointer;
+}
+
+#top_content button:focus {
+  outline: none;
+}
+
+/*Lily - first part end*/
